@@ -1,0 +1,14 @@
+{
+  "name": "nodeappmodule",
+  "version": "1.0.0",
+  "description": "Samuel's Application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel ODUNLAMI",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^2.2.0"
+  }
+}

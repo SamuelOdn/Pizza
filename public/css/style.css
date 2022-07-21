@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat+Alternates & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Playfair+Display:wght@600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Montserrat+Alternates&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;0,700;1,300&family=Montserrat+Alternates&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Cormorant', sans-serif;
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #fb911f;
+}
+
+nav h1{
+	color: #fb911f;
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 30px;
+
+}
+
+nav .onglets{
+	margin-top: 3px;
+	margin-left: 300px;
+}
+
+nav .onglets a{
+
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+	border-bottom: 1px solid #fb911f;	
+	padding-bottom: 5px;
+
+}
+
+nav .onglets a:hover{
+	color: #fb911f;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('/bg-item1-min.jpg');
+	background-size: cover;
+	color: #fff;
+	padding: 150px;
+}
+
+header h1{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 50px;
+}
+
+header h4{
+	margin-top: -20px;
+	font-size: 25px;
+	font-family: 'Cormorant', sans-serif;
+
+
+}
+
+header button{
+	padding: 10px 20px;
+	background-color: #fff;
+	border: none;
+	font-size: 20px;
+	font-family: 'Playfair Display', sans-serif;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+header button a{
+	text-decoration: none;
+	color: black;
+}
+
+header button a:hover{
+	color: #fb911f;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: 0.2s;
+}
+
+
+.main{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.main .container .card{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.main .container .card .card-left{
+	flex: 0 0 30%;
+	padding: 20px;
+	background-color: grey;
+	color: #fff;
+
+}
+
+.main .container .card.card-right{
+	flex: 0 0 70%;
+	
+}
+
+.main .container .card .card-right img{
+	height: 300px;
+	width: 400px;
+	margin-top: 5px;
+}
+
+.main .container .card.left{
+	flex: 0 0 70%;
+
+}
+
+.main .container .card .right{
+	flex: 0 0 30%;
+	padding: 20px;
+	background-color: grey;
+	color: #fff;
+	
+}
+.main .container .card .left img{
+	height: 300px;
+	width: 400px;
+	margin-top: 5px;
+}
+
+#menu{
+	font-size: 40px;
+	color: #fb911f;
+}
+.main .container .card .card-left h1,
+.main .container .card .right h1{
+
+	text-align: center;
+}
+
+section button{
+	padding: 10px 20px;
+	background-color: #fff;
+	border: solid 1px #fb911f;
+	font-size: 20px;
+	font-family: 'Playfair Display', sans-serif;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+section button a{
+	text-decoration: none;
+	color: grey;
+}
+
+section button a:hover{
+	color: #fb911f;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: 0.2s;
+}
+
+footer{
+	margin-top: 40px;
+	border-top: 5px solid #fb911f;
+	background-color: grey;
+	color: #fff;
+	padding: 30px 100px;
+}
+
+footer h1{
+
+	font-family: 'Playfair Display', sans-serif;
+	width: 30%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+}
+
+footer .services{
+	margin-top: -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer .services .service{
+	margin-right: 30px;
+	padding: 10px;
+}
+
+footer .services .service p{
+	max-width: 300px;
+	
+}
+
+footer #copy{
+	color: rgb(200, 200, 200);
+	text-align: center;
+	justify-content: center;
+}
+
+.errorImg{
+	height: 0%;
+	width: 100%;
+}
+
+.contact .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:1rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .row form .inputBox input,
+.contact .row form .box,
+.contact .row form textarea{
+    width:100%;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    color:#333;
+    padding:1rem;
+    margin:1rem 0;
+    border:.1rem solid rgba(0,0,0,.1);
+    text-transform: none;
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color: var(--green);
+}
+
+.contact .row form .inputBox input{
+    width:49%;
+}
+
+.contact .row form textarea{
+    height:20rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    margin:.5rem 0;
+}
+
+@media screen and (max-width:600px){
+
+	nav .onglets{
+		margin-left: 100px;
+		margin-bottom: 20px;
+		text-align: center;
+		justify-content: center;
+	}
+
+	header h1{
+		margin-right: -20px;
+		font-size: 25px;
+		margin-bottom: 40px;
+	}
+
+	header h4{
+
+		font-size: 12px;
+	}
+
+	.main .card {
+        margin: 10px;
+    }
+    .main .container .card .card-right img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+
+    .main .container .card .left img{
+        height:200px;
+        width: 100%;
+        margin-bottom: -5px;
+    }
+
+    .main .container .card{
+        display: block;
+    }
+
+    footer{
+        padding: 30px;
+    }
+
+    footer h1{
+
+		width: 80%;
+		font-size: 25px;
+	}
+
+}
+
+
+/*@media screen and (max-width:375px){
+
+	.main .card {
+        margin: 10px;
+    }
+    .main .container .card .card-right img{
+        height:200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .main .container .card .left img{
+        height:200px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .main .container .card{
+        display: block;
+    }
+    
+    footer{
+        padding: 30px;
+    }
+
+}*/
+
+
+
+
